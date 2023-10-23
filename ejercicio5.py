@@ -1,0 +1,6 @@
+archivo = open("carro.txt", "a")
+placa = input("ingrese la placa: ")
+marca = input("Ingrese la marca: ")
+color = input("Ingrese el color: ")
+carro = ([placa,marca,color])
+archivo.write(",".join(carro) + "\n")
